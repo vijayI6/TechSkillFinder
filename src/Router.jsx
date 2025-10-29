@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import StudentSearch from './components/StudentSearch';
-import Academics from './components/Academics';
+import Academics from './components/academics';
 import WebDev from './components/webDev';
-import OtherTech from './components/OtherTech';
+import OtherTech from './components/otherTech';
 import ProLang from './components/ProLang';
-import Menu from './components/Menu';
+import Menu from './components/menu';
 import HeaderandFooter from './components/HeaderandFooter';
 import Demo from './components/Demo';
 
