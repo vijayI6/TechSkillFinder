@@ -5,7 +5,7 @@ import axios from "axios";
 export const fetchStudentDetails = createAsyncThunk(
     "student/fetchStudentDetails",
     async (rollNo) => {
-        const response = await axios.get(`http://localhost:5000/api/getStudent/${rollNo}`);
+        const response = await axios.get(` https://techskillfinder-backend.onrender.com/api/getStudent/${rollNo}`);
         console.log(response.data.data);
         return response.data.data;
     }
@@ -14,7 +14,7 @@ export const fetchStudentDetails = createAsyncThunk(
 export const getAllStudents = createAsyncThunk(
     "student/getAllStudents",
     async () => {
-        const response = await axios.get(`http://localhost:5000/api/getAll/`);
+        const response = await axios.get(` https://techskillfinder-backend.onrender.com/api/getAll/`);
         return response.data.data;
     }
 );
