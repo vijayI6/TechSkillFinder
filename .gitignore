@@ -1,14 +1,39 @@
 /node_modules
-package-lock.json
-package-lock.json
-package-lock.json
-package.json
-*.json
-*.json
-*.json
-package.json
-package.json
-package.json
-*.json
-*.json
-*.json
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# Lock files (optional)
+# Uncomment one line depending on your package manager
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Cache and temp files
+*.log
+*.tmp
+*.swp
+
+# Vercel build output
+.vercel/
+
