@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import StudentSearch from './components/StudentSearch';
 import Academics from './components/academics';
-import WebDev from './components/webdev';
+import WebDev from "./components/WebDev";
 import OtherTech from './components/otherTech';
 import ProLang from './components/ProLang';
 import Menu from './components/menu';
