@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, Outlet, useParams } from "react-router-dom";
-import "./Menu.css"
+import './menu.css';
 
 const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
